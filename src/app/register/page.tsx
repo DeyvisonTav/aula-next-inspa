@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { FormSignComponent } from "./components/form-sign";
-export default function Home() {
+import { FormSignupComponent } from "../components/form-signup";
+export default function Register() {
   return (
     <div>
       <div className="flex justify-between px-20 items-center h-screen">
@@ -9,7 +9,7 @@ export default function Home() {
         </div>
 
         <div className="bg-white rounded-xl w-1/2 h-[870px]">
-          <FormSignComponent />
+          <FormSignupComponent />
         </div>
       </div>
     </div>

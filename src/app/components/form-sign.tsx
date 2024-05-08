@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function FormComponent() {
+export function FormSignComponent() {
   return (
     <div className="flex flex-col gap-8 px-14 pt-11">
       <div className="flex flex-col items-start">
